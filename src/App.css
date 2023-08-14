@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #ADFF2F;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.formulario input {
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 2rem;
+  width: 25rem;
+
+}
+
+#iconos{
+  font-size: 4rem;
+  align-items: center;
+  text-align: center;
+  display:inline-block;
+  margin-left: 6rem;
+  color: black;
+}
+  
+.registroform{
+  height: 35rem;
+  width: 35rem;
+  border-radius: 15px;
+  background-color: white;
+}
+
+
+#btn{
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  margin-top:2rem;
+}
+
+#btn:hover {
+  background-color: green; 
+  color:white;/* Cambia el color de fondo cuando el cursor está sobre el botón */
+  
+}
+
+.registroform h2{
+  
+  text-align: center;
+  padding-top: 2rem;
+
+}
+
+#msg{
+  text-align: center;
+  font-weight: bold;
+  
+}
